@@ -22,7 +22,6 @@ class TestTextNode(unittest.TestCase):
 
     def test_repr(self):
         node = TextNode("text node 1", TextType.TEXT)
-        # node_string = node.__repr__
         self.assertEqual(node.__repr__(), 'TextNode(text node 1, text, None)')
 
 if __name__ == "__main__":
